@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
-public class MultiplicarConWhile {
+public class Clase {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         
@@ -24,7 +27,7 @@ public class MultiplicarConWhile {
             contador++;
         }
 
-        /
+    
         System.out.println("\nCálculo finalizado.");
         System.out.println("El resultado de multiplicar los 3 enteros es: " + producto);
         
