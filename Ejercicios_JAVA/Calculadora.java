@@ -6,8 +6,8 @@ public class Calculadora {
         int opcion = 0;
 
         while (opcion != 6) {
-            // 1. Mostrar el menú
-            System.out.println("\n--- MI CALCULADORA ---");
+            // Menu
+            System.out.println("\n-MI CALCULADORA- ");
             System.out.println("1. Sumar");
             System.out.println("2. Restar");
             System.out.println("3. Multiplicar");
@@ -17,14 +17,14 @@ public class Calculadora {
             System.out.print("Elige una opcion: ");
             opcion = sc.nextInt();
 
-            // 2. Si elige una operacion (del 1 al 5), pedimos los numeros
+            // Numero q necesitamos para realizar la operacion
             if (opcion >= 1 && opcion <= 5) {
                 System.out.print("Ingresa el primer numero (a): ");
                 double a = sc.nextDouble();
                 System.out.print("Ingresa el segundo numero (b): ");
                 double b = sc.nextDouble();
 
-                // 3. Ejecutar la operacion segun la opcion
+                // operacion segun lo que escogi 
                 switch (opcion) {
                     case 1:
                         System.out.println("Resultado: La suma es " + (a + b));
